@@ -16,7 +16,7 @@ resource "google_compute_firewall" "default" {
   allow { 
     protocol = "icmp"
   }
-  source_ranges =["199.96.216.8/30"]
+  source_ranges =["199.96.216.9/30"]
   target_tags = ["gw"]
 }
 
