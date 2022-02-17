@@ -10,7 +10,7 @@ region = "us-west2"
 
 resource "google_compute_firewall" "default" {
   project     = "mdeey1291"
-  name    = "i2c-to-nginx-gw-1"
+  name    = "i2c-to-nginx-gw-11"
   network = "default"
 
   allow { 
